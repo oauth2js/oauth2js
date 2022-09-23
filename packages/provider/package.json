@@ -1,0 +1,14 @@
+{
+  "name": "@oauth2js/provider",
+  "version": "0.0.0",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@prunus/mixin": "^0.1.0",
+    "type-is": "^1.6.18"
+  },
+  "devDependencies": {
+    "@types/type-is": "^1.6.3",
+    "ansi-strikethrough": "^0.1.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@oauth2js/express-provider",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@oauth2js/provider": "*"
+  },
+  "peerDependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.5",
+    "@types/supertest": "^2.0.12",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "supertest": "^6.2.4"
+  }
+}

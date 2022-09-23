@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Refresh Token Grant generate token 1`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Refresh Token Grant generate token 2`] = `
+Object {
+  "access_token": Any<String>,
+  "expires_in": 7200,
+  "refresh_token": Any<String>,
+  "token_type": "Bearer",
+}
+`;
+
+exports[`Refresh Token Grant generate token 3`] = `
+Object {
+  "accessToken": Any<String>,
+  "accessTokenExpiresAt": Any<Date>,
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "refreshToken": Any<String>,
+  "refreshTokenExpiresAt": Any<Date>,
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "updatedAt": Any<Date>,
+  "user": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<Date>,
+    "username": "user-test-username",
+  },
+}
+`;
+
+exports[`Refresh Token Grant generate token 4`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Refresh Token Grant generate token 5`] = `
+Object {
+  "access_token": Any<String>,
+  "expires_in": 7200,
+  "refresh_token": Any<String>,
+  "token_type": "Bearer",
+}
+`;
+
+exports[`Refresh Token Grant generate token 6`] = `
+Object {
+  "accessToken": Any<String>,
+  "accessTokenExpiresAt": Any<Date>,
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "refreshToken": Any<String>,
+  "refreshTokenExpiresAt": Any<Date>,
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "token": Object {
+    "accessToken": Any<String>,
+    "accessTokenExpiresAt": Any<Date>,
+    "client": Object {
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "id": "client-test-id",
+      "redirectUris": Array [
+        "http://localhost:8080",
+      ],
+      "secret": "client-test-secret",
+      "updatedAt": Any<Date>,
+    },
+    "createdAt": Any<Date>,
+    "deletedAt": Any<Date>,
+    "refreshToken": Any<String>,
+    "refreshTokenExpiresAt": Any<Date>,
+    "scopes": Array [
+      Object {
+        "alias": "read",
+        "createdAt": Any<Date>,
+        "deletedAt": null,
+        "description": "Read",
+        "updatedAt": Any<Date>,
+      },
+      Object {
+        "alias": "write",
+        "createdAt": Any<Date>,
+        "deletedAt": null,
+        "description": "Write",
+        "updatedAt": Any<Date>,
+      },
+    ],
+    "updatedAt": Any<Date>,
+    "user": Object {
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "password": "user-test-password",
+      "updatedAt": Any<Date>,
+      "username": "user-test-username",
+    },
+  },
+  "updatedAt": Any<Date>,
+  "user": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<Date>,
+    "username": "user-test-username",
+  },
+}
+`;
+
+exports[`Refresh Token Grant with error when getTokenByRefreshToken is not implemented 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "The \`getTokenByRefreshToken\` definition is missing from the implementation.",
+}
+`;
+
+exports[`Refresh Token Grant with error when revokeToken is not implemented 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "The \`revokeToken\` definition is missing from the implementation.",
+}
+`;

@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Device Code Grant generate token 1`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Device Code Grant generate token 2`] = `
+Object {
+  "device_code": Any<String>,
+  "expires_in": 300,
+  "interval": 5000,
+  "user_code": Any<String>,
+  "verification_uri": "http://localhost:8443",
+  "verification_uri_complete": null,
+}
+`;
+
+exports[`Device Code Grant generate token 3`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<ClockDate>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<ClockDate>,
+  },
+  "code": Any<String>,
+  "codeExpiresAt": Any<ClockDate>,
+  "createdAt": Any<ClockDate>,
+  "deletedAt": null,
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<ClockDate>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<ClockDate>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<ClockDate>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<ClockDate>,
+    },
+  ],
+  "updatedAt": Any<ClockDate>,
+  "userCode": Any<String>,
+}
+`;
+
+exports[`Device Code Grant generate token 4`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Device Code Grant generate token 5`] = `
+Object {
+  "error": "authorization_pending",
+  "error_description": "Authorization is pending",
+}
+`;
+
+exports[`Device Code Grant generate token 6`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Device Code Grant generate token 7`] = `
+Object {
+  "error": "slow_down",
+  "error_description": "Slow down",
+}
+`;
+
+exports[`Device Code Grant generate token 8`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Device Code Grant generate token 9`] = `
+Object {
+  "error": "authorization_pending",
+  "error_description": "Authorization is pending",
+}
+`;
+
+exports[`Device Code Grant generate token 10`] = `Object {}`;
+
+exports[`Device Code Grant generate token 11`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<ClockDate>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<ClockDate>,
+  },
+  "code": Any<String>,
+  "codeExpiresAt": Any<ClockDate>,
+  "createdAt": Any<ClockDate>,
+  "deletedAt": null,
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<ClockDate>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<ClockDate>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<ClockDate>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<ClockDate>,
+    },
+  ],
+  "updatedAt": Any<ClockDate>,
+  "user": Object {
+    "createdAt": Any<ClockDate>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<ClockDate>,
+    "username": "user-test-username",
+  },
+  "userCode": Any<String>,
+}
+`;
+
+exports[`Device Code Grant generate token 12`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Device Code Grant generate token 13`] = `
+Object {
+  "error": "slow_down",
+  "error_description": "Slow down",
+}
+`;
+
+exports[`Device Code Grant generate token 14`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Device Code Grant generate token 15`] = `
+Object {
+  "access_token": Any<String>,
+  "expires_in": 7200,
+  "refresh_token": Any<String>,
+  "token_type": "Bearer",
+}
+`;
+
+exports[`Device Code Grant generate token 16`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<ClockDate>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<ClockDate>,
+  },
+  "code": Any<String>,
+  "codeExpiresAt": Any<ClockDate>,
+  "createdAt": Any<ClockDate>,
+  "deletedAt": Any<ClockDate>,
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<ClockDate>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<ClockDate>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<ClockDate>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<ClockDate>,
+    },
+  ],
+  "updatedAt": Any<ClockDate>,
+  "user": Object {
+    "createdAt": Any<ClockDate>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<ClockDate>,
+    "username": "user-test-username",
+  },
+  "userCode": Any<String>,
+}
+`;

@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Authorization Code Grant generate token 1`] = `
+Object {
+  "Content-Type": "text/plain",
+}
+`;
+
+exports[`Authorization Code Grant generate token 2`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "code": Any<String>,
+  "codeExpiresAt": Any<Date>,
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "redirectUri": "http://localhost:8080",
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "state": "test-state",
+  "updatedAt": Any<Date>,
+}
+`;
+
+exports[`Authorization Code Grant generate token 3`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "code": Any<String>,
+  "codeExpiresAt": Any<Date>,
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "redirectUri": "http://localhost:8080",
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "state": "test-state",
+  "updatedAt": Any<Date>,
+  "user": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<Date>,
+    "username": "user-test-username",
+  },
+}
+`;
+
+exports[`Authorization Code Grant generate token 4`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Authorization Code Grant generate token 5`] = `
+Object {
+  "access_token": Any<String>,
+  "expires_in": 7200,
+  "refresh_token": Any<String>,
+  "token_type": "Bearer",
+}
+`;
+
+exports[`Authorization Code Grant generate token 6`] = `
+Object {
+  "accessToken": Any<String>,
+  "accessTokenExpiresAt": Any<Date>,
+  "authorizationCode": Object {
+    "client": Object {
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "id": "client-test-id",
+      "redirectUris": Array [
+        "http://localhost:8080",
+      ],
+      "secret": "client-test-secret",
+      "updatedAt": Any<Date>,
+    },
+    "code": Any<String>,
+    "codeExpiresAt": Any<Date>,
+    "createdAt": Any<Date>,
+    "deletedAt": Any<Date>,
+    "redirectUri": "http://localhost:8080",
+    "scopes": Array [
+      Object {
+        "alias": "read",
+        "createdAt": Any<Date>,
+        "deletedAt": null,
+        "description": "Read",
+        "updatedAt": Any<Date>,
+      },
+      Object {
+        "alias": "write",
+        "createdAt": Any<Date>,
+        "deletedAt": null,
+        "description": "Write",
+        "updatedAt": Any<Date>,
+      },
+    ],
+    "state": "test-state",
+    "updatedAt": Any<Date>,
+    "user": Object {
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "password": "user-test-password",
+      "updatedAt": Any<Date>,
+      "username": "user-test-username",
+    },
+  },
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "refreshToken": Any<String>,
+  "refreshTokenExpiresAt": Any<Date>,
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "updatedAt": Any<Date>,
+  "user": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<Date>,
+    "username": "user-test-username",
+  },
+}
+`;
+
+exports[`Authorization Code Grant generate token 7`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "code": Any<String>,
+  "codeExpiresAt": Any<Date>,
+  "createdAt": Any<Date>,
+  "deletedAt": Any<Date>,
+  "redirectUri": "http://localhost:8080",
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "state": "test-state",
+  "updatedAt": Any<Date>,
+  "user": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<Date>,
+    "username": "user-test-username",
+  },
+}
+`;
+
+exports[`Authorization Code Grant minimal generate token 1`] = `
+Object {
+  "access_token": Any<String>,
+  "expires_in": 7200,
+  "refresh_token": Any<String>,
+  "token_type": "Bearer",
+}
+`;
+
+exports[`Authorization Code Grant with error when authorizeAuthorizationCode is not implemented 1`] = `
+Object {
+  "Location": "http://localhost:8080/?error=server_error&error_description=The+%60authorizeAuthorizationCode%60+definition+is+missing+from+the+implementation.",
+}
+`;
+
+exports[`Authorization Code Grant with error when found client does not have redirect uri 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "The client needs to contain a 'redirectUris' property that has redirect uris allowed.",
+}
+`;
+
+exports[`Authorization Code Grant with error when found client has no redirect uri 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "The client must contain at least 1 redirect uri.",
+}
+`;
+
+exports[`Authorization Code Grant with error when getAuthorizationCodeByCode is not implemented 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "The \`getAuthorizationCodeByCode\` definition is missing from the implementation.",
+}
+`;
+
+exports[`Authorization Code Grant with error when getScopesObjects is not implemented 1`] = `
+Object {
+  "Location": "http://localhost:8080/?error=server_error&error_description=The+%60getScopesObjects%60+definition+is+missing+from+the+implementation.",
+}
+`;
+
+exports[`Authorization Code Grant with error when getUserByAuthorizationCode is not implemented 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "The \`getUserByAuthorizationCode\` definition is missing from the implementation.",
+}
+`;
+
+exports[`Authorization Code Grant with error when no client is found 1`] = `
+Object {
+  "error": "invalid_client",
+  "error_description": "The client is invalid",
+}
+`;
+
+exports[`Authorization Code Grant with error when no client provider is implemented 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "Unable to resolve which client provider to use, conflict when neither \`getClientByCredentials\` nor \`getClientById\` are defined.",
+}
+`;
+
+exports[`Authorization Code Grant with error when request redirect uri does not match that of client 1`] = `
+Object {
+  "error": "invalid_request",
+  "error_description": "The redirect uri must be whitelisted by the client.",
+}
+`;
+
+exports[`Authorization Code Grant with error when revokeAuthorizationCode is not implemented 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "The \`revokeAuthorizationCode\` definition is missing from the implementation.",
+}
+`;
+
+exports[`Authorization Code Grant with error when saveAuthorizationCode is not implemented 1`] = `
+Object {
+  "Location": "http://localhost:8080/?error=server_error&error_description=The+%60saveAuthorizationCode%60+definition+is+missing+from+the+implementation.",
+}
+`;
+
+exports[`Authorization Code Grant with error when saveToken or saveTokenByAuthorizationCode is not implemented 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "The \`saveExchangeToken\` definition is missing from the implementation.",
+}
+`;
+
+exports[`Authorization Code Grant with error when sendAuthorizationCode is not implemented 1`] = `
+Object {
+  "Location": "http://localhost:8080/?error=server_error&error_description=The+%60sendAuthorizationCode%60+definition+is+missing+from+the+implementation.",
+}
+`;
+
+exports[`Authorization Code Grant with error when the client found contains a ["array"] instead of a string in the redirect uri 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "All items within the redirect uri list on the client must be of type string",
+}
+`;
+
+exports[`Authorization Code Grant with error when the client found contains a {"object": true} instead of a string in the redirect uri 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "All items within the redirect uri list on the client must be of type string",
+}
+`;
+
+exports[`Authorization Code Grant with error when the client found contains a 123 instead of a string in the redirect uri 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "All items within the redirect uri list on the client must be of type string",
+}
+`;
+
+exports[`Authorization Code Grant with error when the client found contains a Symbol(symbol) instead of a string in the redirect uri 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "All items within the redirect uri list on the client must be of type string",
+}
+`;
+
+exports[`Authorization Code Grant with error when the client found contains a null instead of a string in the redirect uri 1`] = `
+Object {
+  "error": "server_error",
+  "error_description": "All items within the redirect uri list on the client must be of type string",
+}
+`;

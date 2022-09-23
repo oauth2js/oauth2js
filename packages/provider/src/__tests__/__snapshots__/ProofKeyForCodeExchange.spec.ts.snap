@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Proof Key for Code Exchange PKCE generate authorization code for a confidential client 1`] = `
+Object {
+  "Content-Type": "text/plain",
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE generate authorization code for a confidential client 2`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "type": "confidential",
+    "updatedAt": Any<Date>,
+  },
+  "code": Any<String>,
+  "codeExpiresAt": Any<Date>,
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "redirectUri": "http://localhost:8080",
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "state": "test-state",
+  "updatedAt": Any<Date>,
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE generate token 1`] = `
+Object {
+  "Content-Type": "text/plain",
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE generate token 2`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "code": Any<String>,
+  "codeChallenge": Any<String>,
+  "codeChallengeMethod": "S256",
+  "codeExpiresAt": Any<Date>,
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "redirectUri": "http://localhost:8080",
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "state": "test-state",
+  "updatedAt": Any<Date>,
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE generate token 3`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "code": Any<String>,
+  "codeChallenge": Any<String>,
+  "codeChallengeMethod": "S256",
+  "codeExpiresAt": Any<Date>,
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "redirectUri": "http://localhost:8080",
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "state": "test-state",
+  "updatedAt": Any<Date>,
+  "user": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<Date>,
+    "username": "user-test-username",
+  },
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE generate token 4`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE generate token 5`] = `
+Object {
+  "access_token": Any<String>,
+  "expires_in": 7200,
+  "refresh_token": Any<String>,
+  "token_type": "Bearer",
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE generate token 6`] = `
+Object {
+  "accessToken": Any<String>,
+  "accessTokenExpiresAt": Any<Date>,
+  "authorizationCode": Object {
+    "client": Object {
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "id": "client-test-id",
+      "redirectUris": Array [
+        "http://localhost:8080",
+      ],
+      "secret": "client-test-secret",
+      "updatedAt": Any<Date>,
+    },
+    "code": Any<String>,
+    "codeChallenge": Any<String>,
+    "codeChallengeMethod": "S256",
+    "codeExpiresAt": Any<Date>,
+    "createdAt": Any<Date>,
+    "deletedAt": Any<Date>,
+    "redirectUri": "http://localhost:8080",
+    "scopes": Array [
+      Object {
+        "alias": "read",
+        "createdAt": Any<Date>,
+        "deletedAt": null,
+        "description": "Read",
+        "updatedAt": Any<Date>,
+      },
+      Object {
+        "alias": "write",
+        "createdAt": Any<Date>,
+        "deletedAt": null,
+        "description": "Write",
+        "updatedAt": Any<Date>,
+      },
+    ],
+    "state": "test-state",
+    "updatedAt": Any<Date>,
+    "user": Object {
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "password": "user-test-password",
+      "updatedAt": Any<Date>,
+      "username": "user-test-username",
+    },
+  },
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "refreshToken": Any<String>,
+  "refreshTokenExpiresAt": Any<Date>,
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "updatedAt": Any<Date>,
+  "user": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<Date>,
+    "username": "user-test-username",
+  },
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE generate token 7`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "code": Any<String>,
+  "codeChallenge": Any<String>,
+  "codeChallengeMethod": "S256",
+  "codeExpiresAt": Any<Date>,
+  "createdAt": Any<Date>,
+  "deletedAt": Any<Date>,
+  "redirectUri": "http://localhost:8080",
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "state": "test-state",
+  "updatedAt": Any<Date>,
+  "user": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "password": "user-test-password",
+    "updatedAt": Any<Date>,
+    "username": "user-test-username",
+  },
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE pkce for any exchanger 1`] = `
+Object {
+  "client": Object {
+    "createdAt": Any<Date>,
+    "deletedAt": null,
+    "id": "client-test-id",
+    "redirectUris": Array [
+      "http://localhost:8080",
+    ],
+    "secret": "client-test-secret",
+    "updatedAt": Any<Date>,
+  },
+  "code": Any<String>,
+  "codeChallenge": Any<String>,
+  "codeChallengeMethod": "S256",
+  "codeExpiresAt": Any<Date>,
+  "createdAt": Any<Date>,
+  "deletedAt": null,
+  "scopes": Array [
+    Object {
+      "alias": "read",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Read",
+      "updatedAt": Any<Date>,
+    },
+    Object {
+      "alias": "write",
+      "createdAt": Any<Date>,
+      "deletedAt": null,
+      "description": "Write",
+      "updatedAt": Any<Date>,
+    },
+  ],
+  "updatedAt": Any<Date>,
+  "userCode": Any<String>,
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE pkce for any exchanger 2`] = `
+Object {
+  "Content-Type": "application/json",
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE pkce for any exchanger 3`] = `
+Object {
+  "access_token": Any<String>,
+  "expires_in": 7200,
+  "refresh_token": Any<String>,
+  "token_type": "Bearer",
+}
+`;
+
+exports[`Proof Key for Code Exchange PKCE with error when compareNonPublicClientSecret is not implemented 1`] = `
+Object {
+  "Location": "http://localhost:8080/?error=server_error&error_description=The+%60compareNonPublicClientSecret%60+definition+is+missing+from+the+implementation.",
+}
+`;
